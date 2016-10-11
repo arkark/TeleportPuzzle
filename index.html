@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Puzzle</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="marked/marked.min.js"></script>
+        <script type="text/javascript" async src="//platform.twitter.com/widgets.js"></script>
+        <script>
+            $(document).ready(function(){
+                var target = $("#markdown_content");
+                $.ajax({
+                    url: target[0].attributes["src"].value,
+                }).success(function(data){
+                    target.append(marked(data));
+                }).error(function(data){
+                    target.append("This content failed to load.");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="markdown_content" src="./contents.md"> </div>
+        </div>
+    </body>
+</html>
