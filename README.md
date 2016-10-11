@@ -1,1 +1,3 @@
-# A 2D action-puzzle game 
+# Puzzle
+
+### [Play](https://arkark.github.io/Puzzle/ )
