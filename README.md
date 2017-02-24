@@ -1,1 +1,3 @@
-# [Puzzle](https://arkark.github.io/Puzzle/) - A 2D action-puzzle game
+# Puzzle
+
+ A 2D action-puzzle game. -> [play](https://arkark.github.io/Puzzle/)
