@@ -36,6 +36,6 @@
 本ゲームを使用したことによって生じたすべての障害・損害・不具合等に関しては、私と私の関係者および私の所属するいかなる団体・組織とも、一切の責任を負いません。各自の責任においてご使用ください。
 
 ### ダウンロード
-[こちら](https://github.com/ArkArk/Puzzle/releases/tag/v1.0.0)*のpuzzle.zipをダウンロードしてください。
+[こちら](https://github.com/ArkArk/Puzzle/releases/tag/v1.0.0)のpuzzle.zipをダウンロードしてください。
 
 解凍後、JavaがインストールされていればPuzzle.jarをダブルクリックで起動します。
