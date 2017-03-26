@@ -1,6 +1,7 @@
 # Puzzle
 
 <img src="images/ss1.png" width="320px"> <img src="images/ss2.png" width="320px">
+
 ※画像は開発中のものです。
 
 ### ゲーム概要
