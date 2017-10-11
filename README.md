@@ -32,6 +32,6 @@
     - Escapeキー, BackSpaceキー: キャンセル
 
 ### ダウンロード
-[こちら](https://github.com/ArkArk/Puzzle/releases/tag/v1.1.0)のpuzzle.zipをダウンロードしてください。
+[こちら](https://github.com/ArkArk/Puzzle/releases/tag/v1.1.0)のpuzzle.v1.1.0.zipをダウンロードしてください。
 
 解凍後、JavaがインストールされていればPuzzle.jarをダブルクリックで起動します。
