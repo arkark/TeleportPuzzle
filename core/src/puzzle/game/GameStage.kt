@@ -1,6 +1,6 @@
 package puzzle.game
 
-import java.io.File
+import com.badlogic.gdx.Gdx
 
 // ステージに関するパラメータ
 object GameStage {
@@ -98,21 +98,21 @@ object GameStage {
         lateinit var stageSelector      : com.badlogic.gdx.graphics.Texture
 
         fun load() {
-            block = com.badlogic.gdx.graphics.Texture("images/block.gif")
-            space = com.badlogic.gdx.graphics.Texture("images/space.gif")
-            player = com.badlogic.gdx.graphics.Texture("images/player.gif")
-            cross = com.badlogic.gdx.graphics.Texture("images/cross.gif")
-            goalPoint = com.badlogic.gdx.graphics.Texture("images/goalpoint.gif")
-            goalPointBackground = com.badlogic.gdx.graphics.Texture("images/goalpointBackground.gif")
-            needle = com.badlogic.gdx.graphics.Texture("images/needle.gif")
-            gravitater = com.badlogic.gdx.graphics.Texture("images/gravitater.gif")
-            gravitaterUp = com.badlogic.gdx.graphics.Texture("images/gravitaterUp.gif")
-            gravitaterDown = com.badlogic.gdx.graphics.Texture("images/gravitaterDown.gif")
-            gravitaterLeft = com.badlogic.gdx.graphics.Texture("images/gravitaterLeft.gif")
-            gravitaterRight = com.badlogic.gdx.graphics.Texture("images/gravitaterRight.gif")
-            background = com.badlogic.gdx.graphics.Texture("images/background.gif")
-            fade = com.badlogic.gdx.graphics.Texture("images/fade.gif")
-            stageSelector = com.badlogic.gdx.graphics.Texture("images/selector.gif")
+            block = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/block.gif"))
+            space = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/space.gif"))
+            player = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/player.gif"))
+            cross = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/cross.gif"))
+            goalPoint = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/goalpoint.gif"))
+            goalPointBackground = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/goalpointBackground.gif"))
+            needle = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/needle.gif"))
+            gravitater = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/gravitater.gif"))
+            gravitaterUp = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/gravitaterUp.gif"))
+            gravitaterDown = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/gravitaterDown.gif"))
+            gravitaterLeft = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/gravitaterLeft.gif"))
+            gravitaterRight = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/gravitaterRight.gif"))
+            background = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/background.gif"))
+            fade = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/fade.gif"))
+            stageSelector = com.badlogic.gdx.graphics.Texture(Gdx.files.internal("images/selector.gif"))
         }
 
         fun dispose() {

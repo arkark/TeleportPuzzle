@@ -1,17 +1,17 @@
 package puzzle.stage
 
+import com.badlogic.gdx.Gdx
 import puzzle.game.GameStage
 import puzzle.stage.entity.mover.*
 import puzzle.stage.entity.tile.Block
 import puzzle.stage.entity.tile.Space
 import puzzle.stage.entity.tile.Tile
-import java.io.File
 
 object StageLoader {
 
     fun load(name: String, path: String): Stage {
 
-        val stageFile = File(path).absoluteFile
+        val stageFile = Gdx.files.internal(path).reader()
         val tileIdList: Array<Array<Int>> = stageFile.readLines().filter { !it.isEmpty() }.map { str -> str.split(",").filter { !it.isEmpty() }.map { c -> c.filter { it!=' ' } }.map { c -> c.toInt() }.toTypedArray() }.toTypedArray().reversedArray()
 
         var tileList: Array<Array<out Tile>>
