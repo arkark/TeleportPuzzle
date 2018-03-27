@@ -1,23 +1,24 @@
-# Puzzle
+# Teleport Puzzle
 
 <img src="images/ss1.png" width="320px"> <img src="images/ss2.png" width="320px">
 
 ※画像は開発中のものです。
 
 ### ゲーム概要
-- タイトル「Puzzle」
-- 製作者
-    - ゲーム: [Ark](http://arkark.github.io/ )
-    - 音楽: (敬称略)
-        - CLK
-        - [魔王魂](http://maoudamashii.jokersounds.com/music_rule.html )
-- ジャンル: 2Dアクションパズルゲーム
-- 開発環境: Kotlin, libGDX
 
 プレイヤーのテレポート機能とステージのギミックを駆使して星を手に入れよう！
 
-本ゲームは、架歩氏が作成されたフリーゲーム「テレポー塔 / テレポー塔プラス」のゲームアイデアを元にして作りました。
+これは、2016年工大祭向けに作ったパズルアクションゲームです。
+
+架歩氏が作成されたフリーゲーム「テレポー塔 / テレポー塔プラス」のゲームアイデアを元にして作りました。
 →[私設創作所](http://park17.wakwak.com/~ss1/top.htm )
+
+### クレジット
+
+- ゲーム: [Ark](http://arkark.github.io/ )
+- 音楽: (敬称略)
+    - CLK
+    - [魔王魂](http://maoudamashii.jokersounds.com/music_rule.html )
 
 ### 操作方法
 - ゲームプレイ時
@@ -32,6 +33,6 @@
     - Escapeキー, BackSpaceキー: キャンセル
 
 ### ダウンロード
-[こちら](https://github.com/ArkArk/Puzzle/releases/tag/v1.1.0)のpuzzle.v1.1.0.zipをダウンロードしてください。
+[こちら](https://github.com/ArkArk/TeleportPuzzle/releases/tag/v1.1.1)のpuzzle.v1.1.1.zipをダウンロードしてください。
 
-解凍後、JavaがインストールされていればPuzzle.jarをダブルクリックで起動します。
+解凍後、JavaがインストールされていればTeleportPuzzle.jarをダブルクリックで起動します。
